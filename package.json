@@ -1,0 +1,25 @@
+{
+  "name": "social-marketing-panel",
+  "version": "1.0.0",
+  "description": "Nest TypeScript starter repository",
+  "license": "ISC",
+  "scripts": {
+    "watch": "concurrently --kill-others \"mongod --dbpath data/db\" \"nodemon -e ts -w ./src -x npm run watch:serve\"",
+    "watch:serve": "ts-node --inspect src/server.ts"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "jsonwebtoken": "^7.4.0",
+    "mongoose": "^4.9.8",
+    "nest.js": "*",
+    "typescript": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.18",
+    "concurrently": "^3.4.0",
+    "nodemon": "^1.11.0",
+    "ts-node": "^2.1.0"
+  }
+}

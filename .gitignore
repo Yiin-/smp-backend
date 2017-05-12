@@ -1,0 +1,19 @@
+# dependencies
+/node_modules
+/data/db/*
+
+# IDE
+/.idea
+/.awcache
+
+# misc
+npm-debug.log
+env.ts
+
+# example
+/quick-start
+
+# tests
+/test
+/coverage
+/.nyc_output
